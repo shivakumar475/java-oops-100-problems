@@ -1,3 +1,38 @@
+/*QUESTION 4: Write a Java program to demonstrate object oriented 
+programming. 
+1. Create a class BankAccount with data members: 
+o accountNumber (int) 
+o accountHolderName (String) 
+o balance (double) 
+2. In BankAccount class, create the following methods: 
+o setAccountDetails(int accNo, String name, double balance) 
+o deposit(double amount) 
+o withdraw(double amount) 
+o displayAccountDetails() 
+3. Create a class SavingsAccount that inherits BankAccount. 
+4. In SavingsAccount class, add data member: 
+o interestRate (double) 
+5. In SavingsAccount class, create the following methods: 
+o setInterestRate(double rate) 
+o calculateInterest() 
+o displaySavingsAccountDetails() 
+6. Create a Main class. 
+In the main() method: 
+o Create an object of SavingsAccount 
+o Call the following methods: 
+setAccountDetails() 
+setInterestRate() 
+deposit() 
+withdraw() 
+calculateInterest() 
+displaySavingsAccountDetails() 
+Expected Output: 
+Account Number: 12345 
+Account Holder: Anjali 
+Balance: 12000 
+Interest: 600*/
+
+
 class BankAccount {
     int accountNumber;
     String accountHolderName;
@@ -42,7 +77,7 @@ class SavingsAccount extends BankAccount {
 public class Question4 {
     public static void main(String[] args) {
         SavingsAccount s = new SavingsAccount();
-        s.setAccountDetails(12345, "Shiva", 30000);
+        s.setAccountDetails(12345, "Anjali", 30000);
         s.setInterestRate(5);
         s.deposit(5000);
         s.withdraw(10000);

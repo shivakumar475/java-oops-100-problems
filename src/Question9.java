@@ -1,3 +1,39 @@
+/*QUESTION 9: Write a Java program to demonstrate object oriented 
+programming. 
+Create a class University with data members: 
+  o universityName (String) 
+  o location (String) 
+1. In University class, create the following methods: 
+  o setUniversityDetails(String universityName, String location) 
+  o displayUniversityDetails() 
+2. Create a class Department that inherits University with data member: 
+  o departmentName (String) 
+3. In Department class, create the following methods: 
+  o setDepartmentDetails(String departmentName) 
+  o displayDepartmentDetails() 
+4. Create a class Course that inherits Department with data members: 
+  o courseName (String) 
+  o duration (int) 
+5. In Course class, create the following methods: 
+  o setCourseDetails(String courseName, int duration) 
+  o displayCourseDetails() 
+6. Create a Main class. 
+In the main() method: 
+  o Create an object of Course 
+  o Call the following methods in order: 
+    setUniversityDetails() 
+    setDepartmentDetails() 
+    setCourseDetails() 
+    displayCourseDetails() 
+Expected Output: 
+University Name: ABC University 
+Location: Hyderabad 
+Department: Computer Science 
+Course Name: Data Structures 
+Duration: 6 Months*/
+
+
+
 class University {
     String universityName;
     String location;

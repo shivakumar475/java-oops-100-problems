@@ -1,3 +1,41 @@
+/*QUESTION 10: Write a Java program to demonstrate object oriented 
+programming. 
+Create a class Device with data members: 
+  o brand (String) 
+  o basePrice (double) 
+1. In Device class, create the following methods: 
+  o setDeviceDetails(String brand, double basePrice) 
+  o calculatePrice() → returns basePrice 
+  o displayDeviceDetails() 
+2. Create a class Mobile that inherits Device with data member: 
+  o warrantyYears (int) 
+3. In Mobile class: 
+  o Override calculatePrice() 
+    Add warranty cost = warrantyYears × 2000 
+4. Create a class SmartPhone that inherits Mobile with data members: 
+  o cameraMP (int) 
+  o 5GSupport (boolean) 
+5. In SmartPhone class: 
+  o Override calculatePrice() 
+    If 5GSupport is true, add extra 5000 
+6. Create a Main class. 
+In the main() method: 
+  o Create an object of SmartPhone 
+  o Call the following methods in order: 
+    setDeviceDetails() 
+    setMobileDetails() 
+    setSmartPhoneDetails() 
+    displaySmartPhoneDetails() 
+Expected Output: 
+Brand: Samsung 
+Base Price: 30000 
+Warranty Years: 2 
+Camera: 64 MP 
+5G Support: true 
+Final Price: 39000*/
+
+
+
 class Device {
     String brand;
     double basePrice;
