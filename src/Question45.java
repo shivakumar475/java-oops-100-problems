@@ -1,6 +1,3 @@
-public class Question45 {
-    
-}
 /* QUESTION 45: Write a Java program to demonstrate object oriented 
 programming.
 1. Create a class InsurancePolicy with private data members:
